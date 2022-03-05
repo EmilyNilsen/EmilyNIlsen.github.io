@@ -1,0 +1,28 @@
+import React from 'react';
+import Header from '../Components/Header';
+import About from '../Components/About';
+import Skilss from '../Components/skills';
+import Footer from  '../Components/Footer';
+import Projects from '../Components/Projects';
+import image from '../images/image.png';
+import { AiOutlineArrowUp} from 'react-icons/ai';
+
+export default function Home() {
+  return(
+    <>
+      <Header />
+      <div id='home' className='container-home'>
+        <div>
+          <h2 className='title-home'>Olá, eu sou a Emily<i>🌻</i></h2>
+          <p>Desenvolvedora Front-End</p>
+        </div>
+        <img alt='imagem' src={image} />
+      </div>
+      <About />
+      <Skilss />
+      <Projects />
+      <Footer />
+      <a href="#header" class="back-to-top"><i><AiOutlineArrowUp /></i></a>
+    </>
+  )
+};
