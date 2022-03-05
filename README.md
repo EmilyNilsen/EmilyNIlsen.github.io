@@ -23,4 +23,6 @@ npm install
       cd src/ && npm start
 
 
-<iframe src="src\images\giphy.gif" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<p>
+    <img src="src/images/giphy.gif" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen />
+</p>
