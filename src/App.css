@@ -1,38 +1,199 @@
-.App {
-  text-align: center;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #1c1c1c;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-page {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-left: 2.5rem;
+ margin-right: 2.5rem;
+ margin-top: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-page h3 {
+ margin: 0;
+ margin-left: 1rem;
+ color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.links a {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+
+.links a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fdda62;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.links a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.container-home {
+  margin: 2.5rem;
+  color: white;
+  padding-bottom: 19%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title-home {
+  margin-top: 15rem;
+}
+
+.container-about {
+  color: white;
+  text-align: center;
+  margin: 0 27rem;
+  padding-bottom: 19%;
+}
+
+.container-about h3 {
+  color: #efd25b;
+}
+
+.container-contact {
+ color: white;
+ margin-top: 5rem;
+}
+
+.container-icons, .container-infos {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+.container-infos a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.container-skills {
+  background-color: rgba(245,171,13,1);
+  display: flex;
   align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  width: 85%;
+  margin-left: 4.5rem;
+  border-radius: 0.5rem;
+}
+
+/* .skills-content {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 3rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+} */
+
+.skills-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  color: black;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+  gap: 0.5rem;
+  padding: 15px;
+  border: solid black 0.1rem;
+  margin-top: 1rem;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,87,44,1) 100%);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.title-projects {
+ color: white;
+ text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-projects {
+  padding-bottom: 19%;
+  width: 100%;
+  margin-top: 7rem;
+}
+
+.project-content{
+  background-color: rgba(245,171,13,1);
+  padding: 20px;
+  padding: 30px;
+  width: 85%;
+  margin-left: 4.5rem;
+}
+
+.project-grid {
+  /* gap: 3rem; */
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.project-list {
+  width: 200px;
+  height: 200px;
+  /* gap: 1rem; */
+  padding: 15px;
+  border: solid black 1px;
+  background-color: aliceblue;
+}
+
+.footer-Page p {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  color: white;
+  background-color: #595959;
+}
+
+.back-to-top {
+  background: #fdda62;
+  color: white;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  clip-path: circle();
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.back-to-top.show {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
 }
