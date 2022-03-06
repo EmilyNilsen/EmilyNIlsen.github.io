@@ -8,7 +8,7 @@ export default function About() {
     <>
     <section id ='about' className='container-about'>
       <h3>Sobre mim</h3>
-      <p>Sou formada em Procesos Gerencias pela Uniasselvi (Blumenau-SC), sou apaixonada por tecnologia e negócios. No momento estou em transição de carreira, estudando Desenvolvimento Web na Trybe, uma escola que prepara profissionais para o mercado de TI.</p>
+      <p>Sou formada em Processos Gerenciais pela Uniasselvi (Blumenau-SC), sou apaixonada por tecnologia e negócios. No momento estou em transição de carreira, estudando Desenvolvimento Web na Trybe, uma escola que prepara profissionais para o mercado de TI.</p>
     <section className='container-contact '>
       <di className='container-icons'>
         <i><BsEmojiSmile size='1.5rem'/></i>
