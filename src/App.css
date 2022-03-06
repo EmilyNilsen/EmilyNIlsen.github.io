@@ -7,18 +7,13 @@ html, body {
 }
 
 .header-page {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- margin-left: 2.5rem;
- margin-right: 2.5rem;
- margin-top: 1rem;
-}
-
-.header-page h3 {
- margin: 0;
- margin-left: 1rem;
- color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  color: white;
 }
 
 .links a {
@@ -54,13 +49,21 @@ html, body {
 .container-home {
   margin: 2.5rem;
   color: white;
-  padding-bottom: 19%;
+  padding-bottom: 12%;
   display: flex;
   justify-content: space-around;
 }
 
-.title-home {
-  margin-top: 15rem;
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5rem;
+}
+
+.text-home {
+  font-family: 'Bitter', serif;
+  font-size: 3rem;
 }
 
 .container-about {
