@@ -12,9 +12,9 @@ export default function Home() {
     <>
       <Header />
       <div id='home' className='container-home'>
-        <div>
-          <h2 className='title-home'>Olá, eu sou a Emily<i>🌻</i></h2>
-          <p>Desenvolvedora Front-End</p>
+        <div className='container-text'>
+          <h2 className='text-home'>Olá, eu sou a Emily<i>🌻</i></h2>
+          <p className='text-home'>Desenvolvedora Full Stack Jr.</p>
         </div>
         <img alt='imagem' src={image} />
       </div>
