@@ -6,6 +6,20 @@ html, body {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #595959;
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #efd25b;
+  border-radius: 15px;
+}
+
 .header-page {
   display: flex;
   flex-direction: row;
@@ -49,7 +63,7 @@ html, body {
 .container-home {
   margin: 2.5rem;
   color: white;
-  padding-bottom: 12%;
+  padding-bottom: 5%;
   display: flex;
   justify-content: space-around;
 }
@@ -73,11 +87,10 @@ html, body {
 .container-about {
   color: white;
   text-align: center;
-  margin: 0 27rem;
-  padding-bottom: 19%;
+  margin: 20rem 27rem;
 }
 
-.container-about h3 {
+.container-about h1 {
   color: #efd25b;
 }
 

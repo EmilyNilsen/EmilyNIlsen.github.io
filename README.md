@@ -24,5 +24,5 @@ npm install
 
 
 <p>
-    <img src="src/images/giphy.gif" width="240" height="240" frameBorder="0" class="giphy-embed" allowFullScreen />
+    <img src="src/images/giphy.gif" width="240" height="24~ÇJHNHJ     0" frameBorder="0" class="giphy-embed" allowFullScreen />
 </p>
