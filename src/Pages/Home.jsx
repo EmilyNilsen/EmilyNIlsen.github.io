@@ -3,7 +3,7 @@ import Header from '../Components/Header';
 import About from '../Components/About';
 import Skilss from '../Components/skills';
 import Footer from  '../Components/Footer';
-import Projects from '../Components/Projects';
+import CarouselComponent from '../Components/Projects';
 import image from '../images/image.png';
 import { AiOutlineArrowUp} from 'react-icons/ai';
 
@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <About />
       <Skilss />
-      <Projects />
+      <CarouselComponent />
       <Footer />
       <a href="#header" class="back-to-top"><i><AiOutlineArrowUp /></i></a>
     </>
