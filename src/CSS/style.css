@@ -179,6 +179,16 @@ html, body {
   max-height: 18rem;
   padding: 0px 7px;
   margin-left: 4.5rem;
+  position:relative;
+  z-index:1;
+}
+
+.image-site {
+  max-height: 14.2rem;
+  padding: 0px 7px;
+  top: 21px;
+  margin-left: 6.9rem;
+  position:absolute;
 }
 
 .slide-list {
