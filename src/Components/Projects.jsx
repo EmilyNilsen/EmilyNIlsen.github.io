@@ -10,8 +10,8 @@ import { Pagination, Navigation } from "swiper";
 
 export default function Projects() {
   return (
-    <section id="projects" className="conteudo-projetos">
-      <div class="conteudo-projetos-escrito" data-aos="fade-up-right">
+    <section id="projects" className="container-projetos">
+      <div class="conteudo-projetos" data-aos="fade-up-right">
         <h3 className="title-projects">Projetos</h3>
         <Swiper
           slidesPerView={1}
@@ -65,3 +65,4 @@ export default function Projects() {
     </section>
   );
 }
+
