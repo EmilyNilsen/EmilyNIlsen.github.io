@@ -5,7 +5,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function About() {
   return (
-    <section id="about" className="container-about">
+    <section  id="about" className="container-about">
       <h1>Sobre mim</h1>
       <p>
         Sou formada em Processos Gerenciais pela Uniasselvi (Blumenau-SC), sou
