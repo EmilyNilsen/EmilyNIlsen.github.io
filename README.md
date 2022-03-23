@@ -13,6 +13,7 @@ Front-end:
 
 cd src/
 npm install
+npm i swiper
 
 ##  Executando aplicação
  
