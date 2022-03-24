@@ -26,6 +26,4 @@ npm i swiper
 ## Ou acesse pelo link:
 
 > https://emilycarvalho.herokuapp.com/
-<p>
-    <img src="src/images/giphy.gif" width="240" height="24~ÇJHNHJ     0" frameBorder="0" class="giphy-embed" allowFullScreen />
-</p>
+
