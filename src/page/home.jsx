@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../Components/Header';
-import About from '../Components/About';
-import Skilss from '../Components/skills';
-import Footer from  '../Components/Footer';
-import CarouselComponent from '../Components/Projects';
+import Header from '../components/header';
+import About from '../components/about';
+import Skilss from '../components/skills';
+import Footer from  '../components/footer';
+import CarouselComponent from '../components/projects';
 import image from '../images/emily.jpeg';
 import { AiOutlineArrowUp} from 'react-icons/ai';
 
