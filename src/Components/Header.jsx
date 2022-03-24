@@ -5,7 +5,7 @@ export default function Header() {
     <header id="header" className="header-page">
       <div>
         <span className="brackets">{"{"}</span>
-        <span>Portfólio</span>
+        <span>DevEmily🌻</span>
         <span className="brackets">{"}"}</span>
       </div>
       <nav className="links">

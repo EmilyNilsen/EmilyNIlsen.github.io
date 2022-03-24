@@ -61,7 +61,7 @@ html, body {
 }
 
 .container-home {
-  margin: 2.5rem;
+  margin-top: 8rem;
   color: white;
   padding-bottom: 5%;
   display: flex;
@@ -84,10 +84,25 @@ html, body {
   font-size: 2.5rem;
 }
 
+.circle {
+  background-color: #aaa;
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-home {
+  position: absolute;
+  bottom: 50;
+  width: 100%;
+}
+
 .container-about {
   color: white;
   text-align: center;
-  margin: 8rem 27rem;
+  margin: 10rem 27rem;
 }
 
 .container-about h1 {
@@ -125,15 +140,8 @@ html, body {
   width: 85%;
   margin-left: 4.5rem;
   border-radius: 0.5rem;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
-
-/* .skills-content {
-  display: grid;
-  flex-wrap: wrap;
-  gap: 3rem;
-  justify-content: center;
-} */
 
 .skills-grid {
   display: flex;
@@ -147,10 +155,11 @@ html, body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 110px;
+  width: 150px;
   gap: 0.5rem;
   padding: 15px;
   border: solid black 0.1rem;
+  border-radius: 0.5rem;
   margin-top: 1rem;
   background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(107,87,44,1) 100%);

@@ -10,15 +10,15 @@ export default function About() {
         Sou formada em Processos Gerenciais pela Uniasselvi (Blumenau-SC), apaixonada por tecnologia e negócios. A curiosidade me move e se eu não sei algo, vou me esforçar para aprender.
         No momento estou em transição de
         carreira, estudando Desenvolvimento Web na Trybe, uma escola que prepara
-        profissionais para o mercado de TI. Passei pelo módulo de frontend no curso da Trybe e estou finalizando o módulo de backend e isso é só o começo!🚀💚
+        profissionais para o mercado de TI. Passei pelo módulo de frontend onde aprendi React, Redux, Context API, Testes com RTL,  Componentes, Estado e Eventos, Componentes Controlados, Ciclo de Vida. Atualmente estou finalizando o módulo de backend onde estou aprendendo Docker, SQL, NodeJs, Sequelize, Express, TypeScript e em seguida vou para o módulo de Ciência da computação!🚀💚
       </p>
       <section className="container-contact ">
         <div className="container-icons">
           <i>
-            <AiOutlineLinkedin size="1.5rem" />
+            <AiOutlineLinkedin size="4rem" />
           </i>
           <i>
-            <AiFillGithub size="1.5rem" />
+            <AiFillGithub size="4rem" />
           </i>
         </div>
         <div className="container-infos">

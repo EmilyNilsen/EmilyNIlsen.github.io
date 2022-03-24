@@ -4,7 +4,7 @@ import About from '../Components/About';
 import Skilss from '../Components/skills';
 import Footer from  '../Components/Footer';
 import CarouselComponent from '../Components/Projects';
-import image from '../images/image.png';
+import image from '../images/emily.jpeg';
 import { AiOutlineArrowUp} from 'react-icons/ai';
 
 export default function Home() {
@@ -16,7 +16,9 @@ export default function Home() {
           <h3 className='title-home'>Olá, eu sou a Emily<i>🌻</i></h3>
           <p className='text-home'>Desenvolvedora Full Stack Jr.</p>
         </div>
-        <img alt='imagem' src={image} />
+        <div className='circle'>
+          <img alt='imagem' src={image} className="image-home"/>
+        </div>
       </div>
       <About />
       <Skilss />

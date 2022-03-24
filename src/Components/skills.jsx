@@ -6,6 +6,8 @@ import { GrMysql } from "react-icons/gr";
 import { DiGit } from "react-icons/di";
 import { DiNodejsSmall } from "react-icons/di";
 import { SiMocha } from "react-icons/si";
+import { GrHeroku } from "react-icons/gr";
+import { SiTypescript } from "react-icons/si";
 
 export default function Skilss() {
   return (
@@ -19,9 +21,7 @@ export default function Skilss() {
           <div class="skills-grid">
             <div>
               <div class="skills-list">
-                <i>
-                  <IoLogoJavascript size="30px" />
-                </i>
+                <i><IoLogoJavascript size="30px" /></i>
                 <p>JavaScript</p>
               </div>
               <div class="skills-list">
@@ -36,14 +36,14 @@ export default function Skilss() {
                 </i>
                 <p>Jest</p>
               </div>
+            </div>
+            <div>
               <div class="skills-list">
                 <i>
-                  <DiGit size="30px" />
+                  <DiGit size="40px" />
                 </i>
                 <p>Git</p>
               </div>
-            </div>
-            <div>
               <div class="skills-list">
                 <i>
                   <GrMysql size="30px" />
@@ -56,12 +56,22 @@ export default function Skilss() {
                 </i>
                 <p>NodeJs</p>
               </div>
+            </div>
+            <div>
               <div class="skills-list">
-                <i>
-                  <SiMocha size="30px" />
-                </i>
-                <p>Mocha</p>
-              </div>
+                  <i>
+                    <SiMocha size="30px" />
+                  </i>
+                  <p>Mocha</p>
+                </div>
+                <div class="skills-list">
+                  <i><GrHeroku size="30px"/></i>
+                  <p>Heroku</p>
+                </div>
+                <div class="skills-list">
+                  <i><SiTypescript size="30px" /></i>
+                  <p>TypeScript</p>
+                </div>
             </div>
           </div>
         </div>

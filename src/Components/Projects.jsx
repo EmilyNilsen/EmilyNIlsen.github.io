@@ -15,7 +15,7 @@ export default function Projects() {
   return (
     <section id="projects" className="container-projetos">
       <div class="conteudo-projetos" data-aos="fade-up-right">
-        <h3 className="title-projects">Projetos</h3>
+        <h1 className="title-projects">Projetos</h1>
         <Swiper
           slidesPerView={1}
           spaceBetween={30}
